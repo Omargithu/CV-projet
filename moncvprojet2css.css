@@ -1,16 +1,21 @@
 img
 {
-    width: 200px;
+    width: 280px;
 
+
+}
+
+header
+
+{
+    background-color: aqua;
+    width: 280px;
     
-
 }
-.header
-{
 
-    display: flex;
-}
-p
+
+.icone
+
 {
-    display: block;
+    width: 40px;
 }
