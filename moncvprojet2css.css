@@ -1,18 +1,90 @@
-img
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+ }
+
+.cvphoto
 {
-    width: 280px;
-
-
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:80px;
+    height:80px;
 }
 
 aside
 {
-    background-color: aqua;
+    background-color:rgb(255,193,7);
     width: 280px;
+    
+    
+}
+aside h2
+{
+    background-color: black;
+    color: rgb(255,193,7);
+    opacity: 0.7;
 }
 
-
+aside p
+{
+    opacity: 0.7;
+}
 .icone
 {
     width: 40px;
+    border-radius: 100%;
+    border: 1px solid black;
+    opacity: 0.7;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+section
+{
+    justify-content: space-around;
+}
+
+#conteneur
+{
+    display:flex;
+}
+
+
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+hr
+{
+    background-color:rgb(255,193,7);
+    height: 1px;
+    border: none;
+
+}
+main .fas
+{
+    color: rgb(255,193,7);
+
+}
+    
+aside .fas
+{
+    opacity: 0.7;
+    
+}
+.prénom
+{
+    color: rgb(255,193,7);
 }

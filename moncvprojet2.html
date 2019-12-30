@@ -4,60 +4,93 @@
 <head>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="moncvprojet2css.css" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <!-- TODO: ajouter le viewport-->
   <title>mon cv</title>
 </head>
 
 <body>
 
-  <aside>
-    <p>
-      <img src="img/moncvphoto.jpg" alt="cvphoto" />
-    </p>
+  <div id="conteneur">
+    <aside>
+      <p>
+        <img src="img/moncvphoto.jpg" alt="cvphoto" class="cvphoto" />
+      </p>
 
-    <p>
+
       <!-- TODO: passer en h2-->
-      <h1>CONTACT</h1>
-      Omar Bouamama<br>
-      8 squares Molière<br>
-      93240 Stains<br>
-      34 ans, permis B, Marié<br>
-      @: omarbouamama@gmail.com<br>
-      Mobile: 06 00 00 00 00
-    </p>
 
-    <h1>A PROPOS DE MOI</h1>
-    <p>Mon texte</p>
-    <h1>LOISIRS</h1>
-    <img src="img/iconepc.png" alt="icone pc" class="icone" />
-    <img src="img/jeuxvideo.png" alt="icon jeux video" class="icone" />
-    <img src="img/football.png" alt="icone football" class="icone" />
-  </aside>
 
-  <main>
-    
-    <h1>OMAR BOUAMAMA</h1>
-    <p>developpeur web freelance</p>
+      <h2>CONTACT</h2>
+      <P>
+        Adresse</br>
+        Stains, France</br>
+        <br>
+        Téléphone</br>
+        06 00 00 00 00</br>
+        <br>
+        Email</br>
+        nom@email.com</br>
+        <br>
+        Site web</br>
+        www.name.com</br>
+        <br>
+        Skype</br>
+        @nom_dutilisateur
+      </p>
 
-    <!-- TODO: passer en h2-->
-    <h1>FORMATION</h1>
-    <ul>
-      <li>2019-2020 Formation openclassrooms</li>
-      <li>2015 CAP Pro Elec Préparation et Réalisation d'Ouvrage Électrique Globale</li>
-      <li>2006-2007 Titre Professionnel Technicien Services en électronique Grand Public</li>
-      <li>2006 BAC Professionnel Maintenance de l’audiovisuelle électronique</li>
-    </ul>
-  
-    <h1>EXPERIENCES PROFESSIONNELLES</h1>
-    <ul>
-      <li>2016 Électricien à Bâtiment rénovation 6 mois (chantier)</li>
-      <li>2016 Electricien à Globale Décoration 6 mois (chantier) </li>
-      <li>2006-2014 Technicien de maintenance audio-vidéo électronique à DARTY</br>
-        Technicien installation numérique</br>
-        Maintenance et Installation des lignes câble et ADSL</li>
-    </ul>
-  </main>
+      <h2>A PROPOS DE MOI</h2>
+      <p>Mon texte</p>
+      <h2>LOISIRS</h2>
+      <i class="fas fa-swimmer"></i>
+      <i class="fas fa-biking"></i>
+      <i class="fas fa-table-tennis"></i>
 
+    </aside>
+
+    <main>
+
+      <h1><span class="prénom">OMAR</span> BOUAMAMA</h1>
+      <p>développeur web freelance</p>
+
+      <!-- TODO: passer en h2-->
+      <h2> <i class="fas fa-graduation-cap"></i> FORMATION</h2>
+      <hr>
+      <ul>
+        <li>2019-2020 Formation openclassrooms</li>
+        <li>2015 CAP Pro Elec Préparation et Réalisation d'Ouvrage Électrique Globale</li>
+        <li>2006-2007 Titre Professionnel Technicien Services en électronique Grand Public</li>
+        <li>2006 BAC Professionnel Maintenance de l’audiovisuelle électronique</li>
+      </ul>
+      
+      <h2><i class="fas fa-briefcase"></i> EXPERIENCES PROFESSIONNELLES</h2>
+      <hr>
+      <ul>
+        <li>2016 Électricien à Bâtiment rénovation 6 mois (chantier)</li>
+        <li>2016 Electricien à Globale Décoration 6 mois (chantier) </li>
+        <li>2006-2014 Technicien de maintenance audio-vidéo électronique à DARTY</br>
+          Technicien installation numérique</br>
+          Maintenance et Installation des lignes câble et ADSL</li>
+      </ul>
+      
+      <h2><i class="fas fa-pencil-alt"></i> RECOMMANDATIONS</h2>
+      <hr>
+      <footer>
+        <p class="agence">MAXIME KIEMAN</br>
+          Directeur,Mon agence</br>
+          Telephone: 01 00 00 00 00</br>
+          Email: name@Email
+        </p>
+        <p class="agence">MAXIME KIEMAN</br>
+          Directeur,Mon agence</br>
+          Telephone: 01 00 00 00 00</br>
+          Email: name@Email
+        </p>
+      </footer>
+    </main>
+  </div>
 </body>
 
 </html>
