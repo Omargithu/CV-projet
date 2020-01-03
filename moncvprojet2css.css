@@ -2,89 +2,96 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
- }
+}
 
-.cvphoto
-{
+/*********/
+/* ASIDE */
+/*********/
+.cvphoto{
     display: block;
-   margin-left: auto;
-   margin-right: auto;
+    margin:25px auto;
     overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:50px;
-    width:80px;
-    height:80px;
+    border-radius: 100%;
+    width: 150px;
+    height:150px;
 }
 
 aside
 {
     background-color:rgb(255,193,7);
     width: 280px;
-    
-    
 }
+
 aside h2
 {
     background-color: black;
     color: rgb(255,193,7);
     opacity: 0.7;
+    text-align: center;
 }
 
-aside p
-{
+aside p{
     opacity: 0.7;
 }
-.icone
-{
-    width: 40px;
-    border-radius: 100%;
-    border: 1px solid black;
-    opacity: 0.7;
-    margin-left: auto;
-    margin-right: auto;
 
-    
-}
-section
-{
+section{
     justify-content: space-around;
 }
 
-#conteneur
-{
+#conteneur{
     display:flex;
+    height: 100%;
 }
 
-
-
-footer
-{
+footer{
     display: flex;
     justify-content: space-between;
     
 }
 
-
-hr
-{
+hr{
     background-color:rgb(255,193,7);
     height: 1px;
     border: none;
 
 }
-main .fas
-{
+
+section .fas{
     color: rgb(255,193,7);
+}
+  
+section ul li{
+    list-style-type: none;
+}  
+
+.prenom{
+    color: rgb(255,193,7);
+}
+
+#devel:not(p){
+    text-decoration: underline;
+    color: rgb(255,193,7) !important;
+}
+
+.contact{
+    padding: 30px;
 
 }
-    
-aside .fas
-{
-    opacity: 0.7;
+
+#monTexte{
+    padding: 30px;
+    text-align: justify;
     
 }
-.prénom
-{
-    color: rgb(255,193,7);
+.loisir{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.loisir .fas{
+    border-radius: 50%;
+    border: 1.5px black solid;
+    opacity: 0.7;
+    padding: 10px;
+    font-size: 25px;   
 }
