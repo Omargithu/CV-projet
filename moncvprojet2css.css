@@ -36,6 +36,7 @@ aside p{
 
 section{
     justify-content: space-around;
+    padding: 50px 30px;
 }
 
 #conteneur{
@@ -68,9 +69,11 @@ section ul li{
     color: rgb(255,193,7);
 }
 
-#devel:not(p){
-    text-decoration: underline;
-    color: rgb(255,193,7) !important;
+#devel{
+    width: 50px;
+    height: 1px;
+    background: #ffc107;
+    display: block;
 }
 
 .contact{
