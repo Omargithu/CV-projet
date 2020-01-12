@@ -51,6 +51,11 @@ main{
     padding: 50px 30px;
 }
 
+main p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 .o_flex {
     display: flex;
     justify-content: space-between;
@@ -59,18 +64,30 @@ main{
 
 .o_flex-right {
     width: 55%;
+    
+}
+
+.rond{
+    width : 5px;
+    height: 5px;
+    background-color: #ffc107;
+    border-radius: 50%;
+    border: 3px solid white;
+
 }
 
 footer{
     display: flex;
     justify-content: space-between;
-    
+    margin-top: 10px;
+    width: 70%;
 }
 
 hr{
     background-color:rgb(255,193,7);
     height: 1px;
     border: none;
+    margin-top: 10px;
     
 }
 
@@ -83,6 +100,7 @@ hr{
     height: 1px;
     background: #ffc107;
     display: block;
+    margin-bottom: 100px;
 }
 
 
@@ -109,4 +127,12 @@ main .fas{
     color: #ffc107;
 }
 
+@media screen and (max-width: 1024px){
+    #conteneur{
+        flex-direction: column-reverse;
+    }
+    aside{
+        width: auto;
+    }
+}
 
