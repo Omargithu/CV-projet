@@ -52,7 +52,6 @@ main{
 }
 
 main p{
-    margin-bottom: 10px;
     margin-top: 10px;
 }
 
@@ -138,6 +137,12 @@ main .fas{
     }
     aside{
         width: auto;
+    }
+    .rondpoind{
+        display: none;
+    }
+    .rond{
+        display: none;
     }
 }
 
