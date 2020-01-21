@@ -1,18 +1,148 @@
-img
-{
-    width: 280px;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
 
+/*********/
+/* ASIDE */
+/*********/
+#conteneur{
+    display:flex;
+    height: 100%;
+}
 
+.cvphoto{
+    display: block;
+    margin:25px auto;
+    overflow:hidden;
+    border-radius: 100%;
+    width: 150px;
+    height:150px;
 }
 
 aside
 {
-    background-color: aqua;
+    background-color:rgb(255,193,7);
     width: 280px;
+    
+}
+.contact{
+    padding: 30px;
 }
 
 
-.icone
+aside h2
 {
-    width: 40px;
+    background-color: black;
+    color: rgb(255,193,7);
+    opacity: 0.7;
+    text-align: center;
+    
 }
+
+aside p{
+    opacity: 0.7;
+}
+
+/** MAIN */
+main{
+    justify-content: space-around;
+    padding: 50px 30px;
+}
+
+main p{
+    margin-top: 10px;
+}
+
+.o_flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.o_flex-right {
+    width: 55%;
+    
+}
+
+.rond{
+        width : 7px;
+        height: 7px;
+        background-color: #ffc107;
+        border-radius: 50%;
+        border: 3px solid white;
+        position: absolute;
+    left: 265px;
+}
+.rondpoind{
+    position: absolute;
+    left: 265px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 70%;
+}
+
+hr{
+    background-color:rgb(255,193,7);
+    height: 1px;
+    border: none;
+    margin-top: 10px;
+    
+}
+
+.prenom{
+    color: rgb(255,193,7);
+}
+
+#devel{
+    width: 50px;
+    height: 1px;
+    background: #ffc107;
+    display: block;
+    margin-bottom: 100px;
+}
+
+
+#monTexte{
+    padding: 30px;
+    text-align: justify;
+    
+}
+.loisir{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.loisir .fas{
+    border-radius: 50%;
+    border: 1.5px black solid;
+    opacity: 0.7;
+    padding: 10px;
+    font-size: 25px; 
+    justify-content: space-between;  
+}
+
+main .fas{
+    color: #ffc107;
+}
+
+@media screen and (max-width: 1024px){
+    #conteneur{
+        flex-direction: column-reverse;
+    }
+    aside{
+        width: auto;
+    }
+    .rondpoind{
+        display: none;
+    }
+    .rond{
+        display: none;
+    }
+}
+
