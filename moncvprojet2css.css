@@ -131,7 +131,8 @@ main .fas{
     color: #ffc107;
 }
 
-@media screen and (max-width: 1024px){
+/* Responsive */
+@media screen and (max-width: 768px){
     #conteneur{
         flex-direction: column-reverse;
     }
@@ -143,6 +144,22 @@ main .fas{
     }
     .rond{
         display: none;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .o_flex, footer, .contact {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    footer {
+        width: 100%;
+    }
+    
+    .o_flex-right {
+        width: 100%;
+        margin-top: 10px;
     }
 }
 
