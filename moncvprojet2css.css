@@ -75,9 +75,11 @@ main p{
         position: absolute;
     left: 265px;
 }
-.rondpoind{
+.far{
+    color:#ffc107 ;
     position: absolute;
     left: 265px;
+    width: 16px;
 }
 
 footer{
@@ -139,8 +141,8 @@ main .fas{
     aside{
         width: auto;
     }
-    .rondpoind{
-        display: none;
+    .far{
+        visibility: hidden;
     }
     .rond{
         display: none;
@@ -161,5 +163,6 @@ main .fas{
         width: 100%;
         margin-top: 10px;
     }
+    
 }
 
