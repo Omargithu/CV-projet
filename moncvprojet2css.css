@@ -24,8 +24,7 @@
 aside
 {
     background-color:rgb(255,193,7);
-    width: 280px;
-    
+    width: 60%;
 }
 .contact{
     padding: 30px;
@@ -53,6 +52,8 @@ aside p{
 main{
     justify-content: space-around;
     padding: 50px 30px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 main p{
